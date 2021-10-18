@@ -2,6 +2,7 @@ result = []
 
 def back(index, rest_day, money, lst):
     global result
+    
 
     for j in range(index, len(lst)):
         if rest_day != 0:
