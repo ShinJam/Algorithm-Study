@@ -1,30 +1,46 @@
-# 아직 푸는중....
-
 N, M = map(int,input().split())
 lst = [list(map(int,input().split())) for _ in range(M)]
-parent = [0] * (N+1)
-rank = [0] * (N+1)
+trust = {}
 
-for i in range(1, N+1):
-    parent[i] = i
-
-def find_parent(parent, x):
-    if parent[x] != x:
-        return find_parent(parent, parent[x])
-
-    return x
-
-def union_parent(parent, a, b):
-    a = find_parent(parent, a)
-    b = find_parent(parent, b)
-
-    if a < b:
-        parent[b] = a
-    else:
-        parent[a] = b
-print(parent)
 for x, y in lst:
 
-    union_parent(parent, x, y)
+    if y not in trust:
+        trust[y] = [x]
+    else:
+        trust[y].append(x)
 
-print(parent)
+max_k = 0
+result = []
+
+for i in range(1, N + 1):
+    visit = [0] * (N+1)
+    stack = [i]
+    visit[i] = 1
+    stack2 = []
+    cnt = 0
+
+    while stack:
+        target = stack.pop()
+
+        if target in trust:
+
+            for number in trust[target]:
+                if visit[number] != 1:
+                    cnt +=1
+                    stack2.append(number)
+                    visit[number] = 1
+
+        if not stack and stack2:
+            stack = stack2[:]
+            stack2 = []
+    if cnt >= max_k:
+        max_k = cnt
+    result.append([i, cnt])
+
+result.sort(key=lambda x: (-x[1], x[0]))
+
+for r in result:
+    if r[1] == max_k:
+        print(r[0], end=' ')
+    else:
+        break
