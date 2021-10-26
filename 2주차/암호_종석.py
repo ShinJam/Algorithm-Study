@@ -1,6 +1,6 @@
-result = []
+
 def back(idx, vowel_cnt, cnt, words, target, a, L):
-    global result
+
     if vowel_cnt >= 1 and cnt >=2 and len(target) == L:
         print(''.join(target))
 

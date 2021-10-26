@@ -1,6 +1,5 @@
 import copy
 
-
 def back(s_idx, l_idx, cnt, case, lst):
 
     if cnt == 6:

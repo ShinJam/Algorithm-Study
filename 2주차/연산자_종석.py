@@ -29,6 +29,7 @@ for i, o in enumerate(op):
         back(op2, 1, [i])
 
 final_result = []
+print(result)
 for r in result:
     cnt = numbers[0]
     for w in range(len(numbers) -1):
