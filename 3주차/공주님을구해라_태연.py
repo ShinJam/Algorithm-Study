@@ -34,6 +34,7 @@ while que:
                 answer = min(answer, count + 1 + N - 1 - nx + M - 1 - ny)
 
 if answer > T:
-    print('fail')
+    print('Fail')
 else:
     print(answer)
+
