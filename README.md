@@ -14,7 +14,7 @@
 | 1주차  | 부르트포스/재귀         | [Z](https://www.acmicpc.net/problem/1074) | [하노이탑이동순서](https://www.acmicpc.net/problem/11729) | [퇴사](https://www.acmicpc.net/problem/14501) |
 | 2주차  | 순열/조합               | [연산자끼워넣기](https://www.acmicpc.net/problem/14888) | [로또](https://www.acmicpc.net/problem/6603) | [암호만들기](https://www.acmicpc.net/problem/1759)                                               |
 | 3주차  | BFS/DFS                 | [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [토마토](https://www.acmicpc.net/problem/7576) | [공주님을 구해라!](https://www.acmicpc.net/problem/17836)
-| 4주차  | 비트마스킹              |                                           |                                                           |                                               |
+| 4주차  | 비트마스킹              | [막대기](https://www.acmicpc.net/problem/1094) | [IP 주소](https://www.acmicpc.net/problem/2064) | [외판원 순회](https://www.acmicpc.net/problem/2098) |
 | 5주차  | 빡구현                  |                                           |                                                           |                                               |
 | 6주차  | 그리디                  |                                           |                                                           |                                               |
 | 7주차  | DP 일반                 |                                           |                                                           |                                               |
