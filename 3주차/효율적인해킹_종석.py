@@ -37,7 +37,7 @@ for i in range(1, N + 1):
         max_k = cnt
     result.append([i, cnt])
 
-result.sort(key=lambda x: (-x[1], x[0]))
+result.sort(key=lambda w: (-x[1], x[0]))
 
 for r in result:
     if r[1] == max_k:
