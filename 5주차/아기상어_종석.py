@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open('아기상어_종석.txt')
+# import sys
+# sys.stdin = open('아기상어_종석.txt')
 
 N = int(input())
 lst = [list(map(int,input().split())) for _ in range(N)]
@@ -38,6 +38,7 @@ while True:
             shark = shark2[:]
             shark2 = []
             cnt += 1
+
     if fish_lst:
         fish_lst.sort(key=lambda x: (x[0], x[1], x[2]))
         shark = [[fish_lst[0][1], fish_lst[0][2]]]
