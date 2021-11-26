@@ -1,29 +1,25 @@
-# 아직 푸는중
-
+import heapq
 
 N, K = map(int, input().split())
 jewels = [list(map(int , input().split())) for _ in range(N)]
-C = [int(input()) for _ in range(K)]
-C.sort()
-jewels.sort(key=lambda x: (-x[1] , x[0]))
-visit_dict = {}
-for i in range(len(C)):
-    visit_dict[i] = C[i]
+bags = [int(input()) for _ in range(K)]
+bags.sort(reverse=True)
 cnt = 0
-for x, y in jewels:
-    target = 'flag'
-    for j, bag in visit_dict.items():
+jewels.sort(key=lambda x: -x[0])
+heap = []
 
-        if x <= bag:
-            cnt += y
-            target = j
-            break
-    if target == 'flag':
-        continue
-    else:
+# 가방은 무게순으로 정렬
+# 보석도 무게순으로 정렬
+# deque 안쓰려고 역순으로 정렬해놈
 
-        del visit_dict[target]
-        if not visit_dict:
-            break
+while bags:
+
+    target = bags.pop() # 가장 작은 무게의 가방을 뽑는다
+    while jewels and jewels[-1][0] <= target: # 뽑은 가방에 들어 갈 수 있는 모든 보석들을 heap 에 넣어준다
+        jewel = jewels.pop()
+        heapq.heappush(heap, [-jewel[1], jewel[0]])
+
+    if heap: # heap 에 들어간 것중 가장 비싼 보석을 뽑는다.
+        cnt += abs(heapq.heappop(heap)[0])
 
 print(cnt)
