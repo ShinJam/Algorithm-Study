@@ -17,7 +17,7 @@
 | 4주차  | 비트마스킹              | [막대기](https://www.acmicpc.net/problem/1094)          | [IP 주소](https://www.acmicpc.net/problem/2064)           | [외판원 순회](https://www.acmicpc.net/problem/2098)         |
 | 5주차  | 빡구현                  | [아기상어](https://www.acmicpc.net/problem/16236)       | [나무 재테크](https://www.acmicpc.net/problem/16235)      | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) |
 | 6주차  | 그리디                  | [회의실배정](https://www.acmicpc.net/problem/1931)       | [주유소](https://www.acmicpc.net/problem/13305)           |  [보석도둑](https://www.acmicpc.net/problem/1202)    |
-| 7주차  | DP 일반                 |                                                         |                                                           |                                                             |
+| 7주차  | DP 일반                 | [점프](https://www.acmicpc.net/problem/1890)             | [내리막길](https://www.acmicpc.net/problem/1520)         | [경찰차](https://www.acmicpc.net/problem/2618)      |
 | 8주차  | 트리 기본               |                                                         |                                                           |                                                             |
 | 9주차  | 위상 정렬               |                                                         |                                                           |                                                             |
 | 10주차 | 플로이드                |                                                         |                                                           |                                                             |
