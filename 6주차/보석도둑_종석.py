@@ -12,7 +12,7 @@ heap = []
 # 보석도 무게순으로 정렬
 # deque 안쓰려고 역순으로 정렬해놈
 
-while bags:
+while bags and jewels:
 
     target = bags.pop() # 가장 작은 무게의 가방을 뽑는다
     while jewels and jewels[-1][0] <= target: # 뽑은 가방에 들어 갈 수 있는 모든 보석들을 heap 에 넣어준다
