@@ -11,24 +11,24 @@
 
 |        | Category                | 1                                                       | 2                                                         | 3                                                           |
 | ------ | ----------------------- | ------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- |
-| 1주차  | 부르트포스/재귀         | [Z](https://www.acmicpc.net/problem/1074)               | [하노이탑이동순서](https://www.acmicpc.net/problem/11729) | [퇴사](https://www.acmicpc.net/problem/14501)               |
-| 2주차  | 순열/조합               | [연산자끼워넣기](https://www.acmicpc.net/problem/14888) | [로또](https://www.acmicpc.net/problem/6603)              | [암호만들기](https://www.acmicpc.net/problem/1759)          |
-| 3주차  | BFS/DFS                 | [효율적인 해킹](https://www.acmicpc.net/problem/1325)   | [토마토](https://www.acmicpc.net/problem/7576)            | [공주님을 구해라!](https://www.acmicpc.net/problem/17836)   |
-| 4주차  | 비트마스킹              | [막대기](https://www.acmicpc.net/problem/1094)          | [IP 주소](https://www.acmicpc.net/problem/2064)           | [외판원 순회](https://www.acmicpc.net/problem/2098)         |
-| 5주차  | 빡구현                  | [아기상어](https://www.acmicpc.net/problem/16236)       | [나무 재테크](https://www.acmicpc.net/problem/16235)      | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) |
-| 6주차  | 그리디                  | [회의실배정](https://www.acmicpc.net/problem/1931)       | [주유소](https://www.acmicpc.net/problem/13305)           |  [보석도둑](https://www.acmicpc.net/problem/1202)    |
-| 7주차  | DP 일반                 | [점프](https://www.acmicpc.net/problem/1890)             | [내리막길](https://www.acmicpc.net/problem/1520)         | [경찰차](https://www.acmicpc.net/problem/2618)      |
-| 8주차  | 트리 기본               | [트리인가?](https://www.acmicpc.net/problem/6416)       |  [트리의 지름](https://www.acmicpc.net/problem/1967)  | [가장 가까운 공통조상](https://www.acmicpc.net/problem/3584)                    |
-| 9주차  | 위상 정렬               |                                                         |                                                           |                                                             |
-| 10주차 | 플로이드                |                                                         |                                                           |                                                             |
-| 11주차 | 다익스트라/밸만포드     |                                                         |                                                           |                                                             |
-| 12주차 | 프림/크루스칼           |                                                         |                                                           |                                                             |
-| 13주차 | 바이너리/파라매트릭     |                                                         |                                                           |                                                             |
-| 14주차 | 투포인터/스라이딩윈도우 |                                                         |                                                           |                                                             |
-| 15주차 | LCA                     |                                                         |                                                           |                                                             |
-| 16주차 | Trie                    |                                                         |                                                           |                                                             |
-| 17주차 | Tree DP/ Bitwise DP     |                                                         |                                                           |                                                             |
-| 18주차 | 세그멘트리              |                                                         |                                                           |                                                             |
+| 1주차   | 부르트포스/재귀         | [Z](https://www.acmicpc.net/problem/1074)               | [하노이탑이동순서](https://www.acmicpc.net/problem/11729) | [퇴사](https://www.acmicpc.net/problem/14501)               |
+| 2주차   | 순열/조합               | [연산자끼워넣기](https://www.acmicpc.net/problem/14888) | [로또](https://www.acmicpc.net/problem/6603)              | [암호만들기](https://www.acmicpc.net/problem/1759)          |
+| 3주차   | BFS/DFS                 | [효율적인 해킹](https://www.acmicpc.net/problem/1325)   | [토마토](https://www.acmicpc.net/problem/7576)            | [공주님을 구해라!](https://www.acmicpc.net/problem/17836)   |
+| 4주차   | 비트마스킹              | [막대기](https://www.acmicpc.net/problem/1094)          | [IP 주소](https://www.acmicpc.net/problem/2064)           | [외판원 순회](https://www.acmicpc.net/problem/2098)         |
+| 5주차   | 빡구현                  | [아기상어](https://www.acmicpc.net/problem/16236)       | [나무 재테크](https://www.acmicpc.net/problem/16235)      | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) |
+| 6주차   | 그리디                  | [회의실배정](https://www.acmicpc.net/problem/1931)       | [주유소](https://www.acmicpc.net/problem/13305)           |  [보석도둑](https://www.acmicpc.net/problem/1202)    |
+| 7주차   | DP 일반                 | [점프](https://www.acmicpc.net/problem/1890)             | [내리막길](https://www.acmicpc.net/problem/1520)         | [경찰차](https://www.acmicpc.net/problem/2618)      |
+| 8주차   | 트리 기본               | [트리인가?](https://www.acmicpc.net/problem/6416)       |  [트리의 지름](https://www.acmicpc.net/problem/1967)  | [가장 가까운 공통조상](https://www.acmicpc.net/problem/3584)                    |
+| 9주차   | 위상 정렬               | [작업](https://www.acmicpc.net/problem/2056) | [문제집](https://www.acmicpc.net/problem/1766) | [선수과목 (Prerequisite)](https://www.acmicpc.net/problem/14567)|
+| 10주차  | 플로이드                |                                                         |                                                           |                                                             |
+| 11주차  | 다익스트라/밸만포드     |                                                         |                                                           |                                                             |
+| 12주차  | 프림/크루스칼           |                                                         |                                                           |                                                             |
+| 13주차  | 바이너리/파라매트릭     |                                                         |                                                           |                                                             |
+| 14주차  | 투포인터/스라이딩윈도우 |                                                         |                                                           |                                                             |
+| 15주차  | LCA                     |                                                         |                                                           |                                                             |
+| 16주차  | Trie                    |                                                         |                                                           |                                                             |
+| 17주차  | Tree DP/ Bitwise DP     |                                                         |                                                           |                                                             |
+| 18주차  | 세그멘트리              |                                                         |                                                           |                                                             |
 ## 🙋‍♂️ 발표 내용
 
 - 문제 소개
