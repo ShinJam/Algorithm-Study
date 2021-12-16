@@ -12,6 +12,7 @@ else:
             node[x] = {y: weight}
         else:
             node[x][y] = weight
+
         if y not in node:
             node[y] = {x: weight}
         else:
@@ -26,17 +27,19 @@ else:
     visit_lst[0] = 1
     while start:
         target, weight = start.pop()
+
         if target in node:
             for key, value in node[target].items():
                 if visit_lst[key] == 0:
                     visit_lst[key] = 1
-                    start2.append([key, weight + value])
+                    start2.append([key, weight+value])
                     start3.append([key, weight + value])
         if not start and start2:
             start = copy.deepcopy(start2)
             start2 = []
 
         if sum(visit_lst) == n+1:
+            find_child = start[:]
             break
 
     start3.sort(key=lambda x:x[1])
@@ -63,10 +66,9 @@ else:
             new_start2 = []
 
         if sum(visit_lst) == n+1:
+            find_child2 = start[:]
             break
-
     new_start3.sort(key=lambda x:x[1])
     print(new_start3[-1][-1])
-
 
 

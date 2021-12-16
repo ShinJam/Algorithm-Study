@@ -26,6 +26,7 @@ while True:
                     break
                 tree_cnt[lst2[i][j]] = 0
                 tree_cnt[lst2[i][j+1]] = 0
+
         for i in range(len(lst2)):
             for j in range(0, len(lst2[i]), 2):
                 if lst2[i][j] == 0 and lst2[i][j+1] == 0:
@@ -36,6 +37,7 @@ while True:
                 else:
                     node[lst2[i][j]].append(lst2[i][j+1])
                 tree_cnt[lst2[i][j+1]] += 1
+        print(tree_cnt)
         zero_count = 0
         zero_check = []
         flag = 0
@@ -52,7 +54,7 @@ while True:
         elif len(zero_check) > 1 or flag == 1:
             print("Case {} is not a tree.".format(cnt))
         else:
-            for key , value in node.items():
+            for key, value in node.items():
 
                 if key == zero_check[0]:
                     continue
@@ -69,6 +71,7 @@ while True:
 
         cnt += 1
         lst2 = []
+
     elif lst[-2] == -1 and lst[-1] == -1:
         break
     else:
