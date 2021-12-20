@@ -20,7 +20,7 @@
 | 7주차   | DP 일반                 | [점프](https://www.acmicpc.net/problem/1890)             | [내리막길](https://www.acmicpc.net/problem/1520)         | [경찰차](https://www.acmicpc.net/problem/2618)      |
 | 8주차   | 트리 기본               | [트리인가?](https://www.acmicpc.net/problem/6416)       |  [트리의 지름](https://www.acmicpc.net/problem/1967)  | [가장 가까운 공통조상](https://www.acmicpc.net/problem/3584)                    |
 | 9주차   | 위상 정렬               | [작업](https://www.acmicpc.net/problem/2056) | [문제집](https://www.acmicpc.net/problem/1766) | [선수과목 (Prerequisite)](https://www.acmicpc.net/problem/14567)|
-| 10주차  | 플로이드                |                                                         |                                                           |                                                             |
+| 10주차  | 플로이드                | [플로이드](https://www.acmicpc.net/problem/11404) | [플로이드 2](https://www.acmicpc.net/problem/11780) | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 | 11주차  | 다익스트라/밸만포드     |                                                         |                                                           |                                                             |
 | 12주차  | 프림/크루스칼           |                                                         |                                                           |                                                             |
 | 13주차  | 바이너리/파라매트릭     |                                                         |                                                           |                                                             |
