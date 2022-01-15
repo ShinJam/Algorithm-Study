@@ -2,22 +2,22 @@ import sys
 import heapq
 
 
-V, E = map(int, input().split())
-start = int(input())
-graph = [[] for _ in range(V + 1)]
+N = int(sys.stdin.readline())
+M = int(sys.stdin.readline())
+
+graph = [[] for _ in range(N + 1)]
 INF = float('inf')
 
-for _ in range(E):
+for _ in range(M):
     u, v, w = map(int, sys.stdin.readline().split())
     graph[u].append([v, w])
+start, end = map(int, sys.stdin.readline().split())
 
-
-distances = [INF] * (V + 1)
+distances = [INF] * (N + 1)
 distances[start] = 0
 
 pq = []
 heapq.heappush(pq, [distances[start], start])
-
 while pq:
     weight, node = heapq.heappop(pq)
 
@@ -28,8 +28,4 @@ while pq:
             distances[adjacent] = distances[node] + next_weight
             heapq.heappush(pq, [distances[adjacent], adjacent])
 
-for cost in distances[1:]:
-    if cost == INF:
-        print("INF")
-    else:
-        print(cost)
+print(distances[end])
