@@ -1,7 +1,8 @@
 import sys
 import heapq
 
-V, E = map(int, sys.stdin.readline().split())
+V = int(sys.stdin.readline())
+E = int(sys.stdin.readline())
 priority = []
 for _ in range(E):
     a, b, c = map(int, sys.stdin.readline().split())
