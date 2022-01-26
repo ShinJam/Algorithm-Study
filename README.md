@@ -23,7 +23,7 @@
 | 10주차  | 플로이드                | [플로이드](https://www.acmicpc.net/problem/11404) | [플로이드 2](https://www.acmicpc.net/problem/11780) | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 | 11주차  | 다익스트라/~밸만포드~     | [최단경로](https://www.acmicpc.net/problem/1753) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [파티](https://www.acmicpc.net/problem/1238) |
 | 12주차  | 프림/크루스칼           | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [네트워크 연결](https://www.acmicpc.net/problem/1922) | [중량제한](https://www.acmicpc.net/problem/1939) |
-| 13주차  | 바이너리/파라매트릭     |                                                         |                                                           |                                                             |
+| 13주차  | 바이너리/파라매트릭     |  [공유기 설치](https://www.acmicpc.net/problem/2110)      |   [두 용액](https://www.acmicpc.net/problem/2470)     |     [세 용액](https://www.acmicpc.net/problem/2473)    |
 | 14주차  | 투포인터/스라이딩윈도우 |                                                         |                                                           |                                                             |
 | 15주차  | LCA                     |                                                         |                                                           |                                                             |
 | 16주차  | Trie                    |                                                         |                                                           |                                                             |
