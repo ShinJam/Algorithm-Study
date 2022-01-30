@@ -1,9 +1,9 @@
 N = int(input())
 lst = list(map(int, input().split()))
 lst.sort()
-
 start, end = 0, len(lst) - 1
 check = float('inf')
+
 while start < end:
 
     mid = lst[start] + lst[end]
