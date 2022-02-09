@@ -26,7 +26,7 @@
 | 12주차  | 프림/크루스칼           | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [네트워크 연결](https://www.acmicpc.net/problem/1922) | [중량제한](https://www.acmicpc.net/problem/1939) |
 | 13주차  | 바이너리/파라매트릭     |  [공유기 설치](https://www.acmicpc.net/problem/2110)      |   [두 용액](https://www.acmicpc.net/problem/2470)     |     [세 용액](https://www.acmicpc.net/problem/2473)    |
 | 14주차  | 투포인터/스라이딩윈도우 | [부분합](https://www.acmicpc.net/problem/1806) | [내려가기](https://www.acmicpc.net/problem/2096) | [보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) |
-| 15주차  | LCA                     |                                                         |                                                           |                                                             |
+| 15주차  | LCA                     | [가장 가까운 공통조상](https://www.acmicpc.net/problem/3584)  |  [LCA](https://www.acmicpc.net/problem/11437) |  [K진 트리](https://www.acmicpc.net/problem/11812)  |
 | 16주차  | Trie                    |                                                         |                                                           |                                                             |
 | 17주차  | Tree DP/ Bitwise DP     |                                                         |                                                           |                                                             |
 | 18주차  | 세그멘트리              |                                                         |                                                           |                                                             |
