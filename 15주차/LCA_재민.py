@@ -1,4 +1,6 @@
 from collections import defaultdict
+imoprt sys
+sys.setrecursionlimit(10**8)
 
 graph = defaultdict(list)
 
